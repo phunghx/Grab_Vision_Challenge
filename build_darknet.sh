@@ -1,2 +1,3 @@
 cd darknet
 make
+cd ..
