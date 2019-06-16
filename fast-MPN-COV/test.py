@@ -31,6 +31,8 @@ parser.add_argument('data', metavar='DIR',
                     help='path to dataset')
 parser.add_argument('--arch', '-a', metavar='ARCH', default='resnet50',
                     help='model architecture: ')
+parser.add_argument('--save', '-s', metavar='SAVEFILE', default='final_submission.csv',
+                    help='save the results ')
 parser.add_argument('-j', '--workers', default=8, type=int, metavar='N',
                     help='number of data loading workers (default: 4)')
 parser.add_argument('-b', '--batch-size', default=10, type=int,
@@ -185,7 +187,7 @@ def validate( model):
     df['prediction'] = result_preds
     for item in class_names_list:
         df[item] = result_scores[item]
-    df.to_csv(os.path.join('../submission', 'final_prediction.csv'), index=False)  
+    df.to_csv(os.path.join('../submission', args.save), index=False)  
 
     print('Time processing {}'.format(time.time() - end))        
 
