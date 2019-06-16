@@ -1,0 +1,6 @@
+classes= 1
+train  = /data3/Grab_Challenge/Grab_Vision_Challenge/data/data_detection/cars_train.txt
+valid  = /data3/Grab_Challenge/Grab_Vision_Challenge/data/data_detection/cars_test.txt
+names = ../darknet/data/car.names
+backup = /data3/Grab_Challenge/Grab_Vision_Challenge/models/model_detection
+
