@@ -12,7 +12,7 @@
    - Build darknet: bash build_darknet.sh
 4. Install library for python:
    - pip install -r requirements.txt
-5. Get pretrained models:
+5. Get  pre-trained models:
    -  bash get_model.sh
    - (optional - if the upper command isn't working. Please download two models with the links in file get_model.sh and put on appropriate directories   
 
@@ -21,8 +21,8 @@
    - bash run_test.sh <input of images folder> <output csv file>
    Examples: bash run_test.sh ../test_imgs ../submission/final_prediction.csv
    The ouput csv file has the header with
-   - First column is filename, which is appropriate with each filename in images folder
-   - Second column is the prediction class
-   - From third column to end is the confidence score for each class
+   - The first column is filename, which is appropriate with each filename in images folder
+   - The second column is the prediction class
+   - From the third column to end is the confidence score for each class
    - Headers are: filename,prediction,AM General Hummer SUV 2000,Acura RL Sedan 2012, ...
-   - Please look up the detail of ouput file in submission/final_prediction.csv
+   - Please look up the detail of output file in submission/final_prediction.csv
