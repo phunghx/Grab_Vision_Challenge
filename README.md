@@ -3,8 +3,11 @@ I. Introduction <br/>
 This is my framework: <br/>
 <br/>
 ![Alt text](pipline.png?raw=true "The pipeline of my approach")
+<br/>
+My solution has two main steps. First, the detector, namely yolov3, will detect the car from an image. Then the classification based on Fast MPN-COV is used to recognize the details of the vehicles from images, including make and model. I assume that there is only one car in an image. This approach created a unified of using both detector and classifier to increase the performance.
 
 II. Testing
+<br/> My framework can handle with JPEG and PNG image files <br/>
 1. Requirements
    - Ubuntu 16.04
    - python 2.7 
