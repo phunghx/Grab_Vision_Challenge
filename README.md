@@ -19,7 +19,7 @@ I. Testing
 
 6. Predict for all images in a folder
    - cd fast-MPN-COV/
-   - bash run_test.sh <input of images folder> <output csv file>
+   - bash run_test.sh &lt;input of images folder&gt; &lt;output csv file&gt;
    <br/>
    Examples: bash run_test.sh ../test_imgs ../submission/final_prediction.csv
    <br/>
