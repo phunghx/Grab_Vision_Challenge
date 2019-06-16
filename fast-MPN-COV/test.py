@@ -187,7 +187,7 @@ def validate( model):
     df['prediction'] = result_preds
     for item in class_names_list:
         df[item] = result_scores[item]
-    df.to_csv(os.path.join('../submission', args.save), index=False)  
+    df.to_csv( args.save, index=False)  
 
     print('Time processing {}'.format(time.time() - end))        
 
