@@ -1,6 +1,8 @@
 # Grab_Vision_Challenge
 I. Introduction
+This is my framework: <br/>
 ![Alt text](pipline.png?raw=true "The pipeline of my approach")
+
 II. Testing
 1. Requirements
    - Ubuntu 16.04
