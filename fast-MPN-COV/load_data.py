@@ -147,7 +147,7 @@ meta = dn.load_meta("../darknet/cfg/car.data")
 
 def post_processing(r, img):
     if len(r) <=0:
-      return (0,0,img.width-1, img.shape[1]-1)
+      return (0,0,img.width-1, img.height-1)
     else:
       index = 0
       c,p,(x,y,w,h) = r[index]
@@ -179,7 +179,7 @@ def test_data_generator(batch, folders):
         
         try:
             img_ = loader(filename)
-                 
+            
             r = dn.detect(net, meta, filename)
         
             box = post_processing(r, img_)
