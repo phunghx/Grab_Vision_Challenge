@@ -1,6 +1,7 @@
 # Grab_Vision_Challenge
-I. Introduction
+I. Introduction <br/>
 This is my framework: <br/>
+<br/>
 ![Alt text](pipline.png?raw=true "The pipeline of my approach")
 
 II. Testing
