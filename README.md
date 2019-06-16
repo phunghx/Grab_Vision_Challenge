@@ -36,4 +36,6 @@ II. Testing
       + From the third column to end is the confidence score for each class
       + Headers are: filename,prediction,AM General Hummer SUV 2000,Acura RL Sedan 2012, ...
       + Please look up the detail of output file in submission/final_prediction.csv
-   
+III. References
+   1. https://github.com/pjreddie/darknet
+   2. https://github.com/jiangtaoxie/fast-MPN-COV
