@@ -1,4 +1,5 @@
 # Grab_Vision_Challenge
+I. Testing
 1. Requirements
    - Ubuntu 16.04
    - python 2.7 
@@ -19,10 +20,12 @@
 6. Predict for all images in a folder
    - cd fast-MPN-COV/
    - bash run_test.sh <input of images folder> <output csv file>
+   <br/>
    Examples: bash run_test.sh ../test_imgs ../submission/final_prediction.csv
+   <br/>
    The ouput csv file has the header with
-   - The first column is filename, which is appropriate with each filename in images folder
-   - The second column is the prediction class
-   - From the third column to end is the confidence score for each class
-   - Headers are: filename,prediction,AM General Hummer SUV 2000,Acura RL Sedan 2012, ...
-   - Please look up the detail of output file in submission/final_prediction.csv
+   + The first column is filename, which is appropriate with each filename in images folder
+   + The second column is the prediction class
+   + From the third column to end is the confidence score for each class
+   + Headers are: filename,prediction,AM General Hummer SUV 2000,Acura RL Sedan 2012, ...
+   + Please look up the detail of output file in submission/final_prediction.csv
