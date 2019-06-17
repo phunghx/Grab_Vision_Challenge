@@ -36,7 +36,7 @@ II. Testing
    - The ouput csv file has the header with
       + The first column is filename, which is appropriate with each filename in images folder
       + The second column is the prediction class
-      + From the third column to end is the confidence score for each class
+      + From the third column to end is the confidence score (between 0.0 and 1.0) for each class
       + Headers are: filename,prediction,AM General Hummer SUV 2000,Acura RL Sedan 2012, ...
       + Please look up the detail of output file in submission/final_prediction.csv
 
