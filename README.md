@@ -18,7 +18,7 @@ II. Testing
       + conda activate Grab
 2. Clone this project: git clone https://github.com/phunghx/Grab_Vision_Challenge.git
 3. Build library:
-   - Edit the file Makefile in darknet folder based on your system. This library was tested on GPU with cuda 9.0, cudnn 7.3
+   - Edit the file Makefile in darknet folder based on your system. This library was tested on GPU with cuda 9.0, cudnn 7.3. If you have a GPU, please set the value GPU=1 and CUDNN=1 in Makefile
    - Build darknet: bash build_darknet.sh
 4. Install library for python:
    - pip install -r requirements.txt
