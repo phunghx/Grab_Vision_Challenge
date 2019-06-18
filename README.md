@@ -44,9 +44,7 @@ III. Training
 1. Dataset: images http://imagenet.stanford.edu/internal/car196/car_ims.tgz and bounding boxes http://imagenet.stanford.edu/internal/car196/cars_annos.mat
 2. Train detection part:
     
-<br/>
-![Alt text](dataset.png?raw=true "The structure of dataset folder")
-<br/>
+
     - Extract images and put this folder with bounding box in a same folder (example: /data3/Grab_Challenge/)
     - Open file darknet/scripts/car_label.py 
        + Change line 45: __PATH_IMG__=<dataset folder> 
