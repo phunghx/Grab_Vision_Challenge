@@ -5,7 +5,7 @@ import pickle
 import os
 from os import listdir, getcwd
 from os.path import join
-import cv2
+
 from sklearn.model_selection import train_test_split
 import matplotlib.patches as patches
 import numpy as np
@@ -41,7 +41,7 @@ def convert(size, box):
 
 random.seed(2019)
 
-__PATH_DETECTION__ = '/data3/Grab_Challenge/Grab_Vision_Challenge/data/data_detection/'
+__PATH_DETECTION__ = '../../data/data_detection/'
 __PATH_IMG__ = '/data3/Grab_Challenge/'
 train_path = 'train/'
 val_path = 'val/'
