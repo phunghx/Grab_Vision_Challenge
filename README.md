@@ -47,7 +47,7 @@ III. Training
 
     - Extract images and put this folder with bounding box in a same folder (example: /data3/Grab_Challenge/)
     - Open file darknet/scripts/car_label.py 
-       + Change line 45: __PATH_IMG__=<dataset folder> 
+       + Change line 45: &lowbar;&lowbar;PATH_IMG&lowbar;&lowbar;=&lt;dataset folder&gt; 
        + bash get_model.sh to create other folders for training
     - Create image dataset for detection part
        + cd darknet/scripts
@@ -64,7 +64,7 @@ III. Training
        + Get the weight at iteration 10000 
 3. Train the classification part:
     - Open file detector-car.py
-       + Change line 49: __PATH_IMG__=<dataset folder>  same as the detection part
+       + Change line 49: &lowbar;&lowbar;PATH_IMG&lowbar;&lowbar;=&lt;dataset folder&gt;  same as the detection part
     - Create image dataset for classification part
        + python detector-car.py
     - Open fast-MPN-COV/finetune.sh
