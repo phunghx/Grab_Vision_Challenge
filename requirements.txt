@@ -1,7 +1,7 @@
 pandas==0.24.2
 matplotlib==2.2.3
 numpy==1.14.2
-torch==1.1.0
+torch==1.13.1
 torchvision==0.3.0
 tqdm==4.32.1
 scipy==1.0.1
